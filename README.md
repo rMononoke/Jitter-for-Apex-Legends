@@ -1,6 +1,6 @@
 # JitterByMononoke
 
-![JitterByMononoke Interface](https://via.placeholder.com/400x500.png?text=JitterByMononoke+Interface) *(Placeholder for screenshot)*
+![JitterByMononoke Interface]
 
 ## Overview
 **JitterByMononoke** is a Python-based tool designed to improve your *Apex Legends* gameplay by counteracting weapon recoil through automated mouse movements. It features a sleek GUI built with `dearpygui` and utilizes `pynput` for precise mouse input detection. Whether you're a competitive gamer or a Python enthusiast, this project offers a robust solution for recoil control and a well-structured codebase for learning and contribution.
