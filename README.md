@@ -60,7 +60,6 @@ To create a standalone `.exe` file for easier distribution:
 ## Notes
 - Ensure you have administrator privileges when running the script, as it interacts with low-level mouse input.
 - The script is designed for *Apex Legends* but can be adapted for other games with similar recoil mechanics.
-- The background image feature is currently disabled (empty `image_path`). Add a valid image path to enhance the GUI.
 
 ## Contributing
 We welcome contributions! To contribute:
@@ -72,9 +71,6 @@ We welcome contributions! To contribute:
 
 Please report issues or suggest features via the GitHub Issues page.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Credits
 Developed by **rMononoke**. Inspired by the *Apex Legends* community and the need for precise recoil control.
 
@@ -82,15 +78,14 @@ Developed by **rMononoke**. Inspired by the *Apex Legends* community and the nee
 
 # JitterByMononoke (Русская версия)
 
-![Интерфейс JitterByMononoke](https://via.placeholder.com/400x500.png?text=Интерфейс+JitterByMononoke) *(Заглушка для скриншота)*
 
 ## Обзор
-**JitterByMononoke** — это инструмент на Python, созданный для улучшения игрового процесса в *Apex Legends* за счёт автоматической компенсации отдачи оружия через управление движением мыши. Проект использует `dearpygui` для создания стильного графического интерфейса и `pynput` для точного отслеживания ввода мыши. Это идеальный выбор как для геймеров, так и для разработчиков, интересующихся автоматизацией и GUI.
+**JitterByMononoke** — это инструмент на Python, созданный для улучшения игрового процесса в *Apex Legends* за счёт автоматической компенсации отдачи оружия через управление движением мыши. Проект использует `dearpygui` для создания стильного графического интерфейса и `pynput` для точного отслеживания ввода мыши. Это идеальный выбор как для геймеров, так и для разработчиков.
 
 ## Возможности
 - **Управление отдачей**: Автоматически корректирует движения мыши для компенсации отдачи, повышая точность стрельбы.
 - **Настраиваемые параметры**: Регулировка силы встряски (`PLUS`/`MINUS`) и задержки (`SLEEP_TIME`) через ползунки.
-- **Гибкость кнопок мыши**: Поддержка различных кнопок активации (например, левая, правая, Mouse4, Mouse5).
+- **Гибкость настройки управления**: Поддержка различных кнопок активации (например, левая, правая, Mouse4, Mouse5).
 - **Адаптивный интерфейс**: Интерфейс, построенный на Dear PyGui, адаптируется под разные размеры экрана.
 - **Эффективность**: Использует потоки для плавной работы с минимальной нагрузкой на процессор.
 
@@ -110,13 +105,13 @@ Developed by **rMononoke**. Inspired by the *Apex Legends* community and the nee
 
 ## Использование
 1. Запустите приложение, чтобы открыть графический интерфейс.
-2. Настройте ползунки `PLUS`, `MINUS` и `SLEEP_TIME` под характеристики отдачи вашего оружия.
+2. Настройте ползунки `PLUS`, `MINUS` и `SLEEP_TIME`. 
 3. Выберите кнопку активации в выпадающем меню (например, Mouse4 или правая).
 4. Нажмите "Включить", чтобы запустить эффект. Удерживайте выбранную кнопку в игре для компенсации отдачи.
 5. Нажмите "Выключить", чтобы остановить скрипт.
 
 ## Технические детали
-- **Язык**: Python 3.x
+- **Язык**: Python 3
 - **Библиотеки**:
   - `dearpygui`: Для графического интерфейса.
   - `pynput`: Для обработки ввода мыши.
@@ -129,7 +124,7 @@ Developed by **rMononoke**. Inspired by the *Apex Legends* community and the nee
   - Обработка ошибок для загрузки шрифтов и изображений.
 
 ## Создание исполняемого файла
-Для создания автономного файла `.exe`:
+Для создания файла `.exe`:
 1. Установите PyInstaller:
    ```bash
    pip install pyinstaller
@@ -143,7 +138,6 @@ Developed by **rMononoke**. Inspired by the *Apex Legends* community and the nee
 ## Примечания
 - Для работы скрипта могут потребоваться права администратора, так как он взаимодействует с низкоуровневым вводом мыши.
 - Скрипт разработан для *Apex Legends*, но может быть адаптирован для других игр с похожей механикой отдачи.
-- Функция фонового изображения отключена (пустой `image_path`). Укажите путь к изображению для улучшения интерфейса.
 
 ## Вклад в проект
 Мы приветствуем любые улучшения! Чтобы внести вклад:
@@ -154,9 +148,6 @@ Developed by **rMononoke**. Inspired by the *Apex Legends* community and the nee
 5. Откройте запрос на включение изменений.
 
 Пожалуйста, сообщайте об ошибках или предлагайте новые функции через страницу Issues на GitHub.
-
-## Лицензия
-Проект распространяется под лицензией MIT. Подробности смотрите в файле `LICENSE`.
 
 ## Автор
 Разработано **rMononoke**. Вдохновлено сообществом *Apex Legends* и необходимостью точного контроля отдачи.
